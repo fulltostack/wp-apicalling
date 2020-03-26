@@ -1,0 +1,50 @@
+#challenges {
+	width: 98%;
+	/*margin: 30px auto;*/
+}
+
+#challenges table {
+	border-collapse: collapse;
+	margin:20px auto;
+	width: 100%;
+	}
+
+/* Zebra striping */
+#challenges tr:nth-of-type(odd) {
+	background: #eee;
+	}
+
+#challenges th {
+	background: #3498db;
+	color: white;
+	font-weight: bold;
+	}
+
+#challenges td, #challenges th {
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: left;
+	font-size: 14px;
+	}
+
+
+#challenges .top-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#challenges .top-wrapper h2 {
+	margin: 0;
+}
+
+#challenges .top-wrapper .btn {
+	background: #007acc;
+  border-radius: 20px;
+  border: 0;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
